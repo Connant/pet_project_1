@@ -1,0 +1,38 @@
+.header {
+  width: 1440px;
+  height: 100px;
+  display: inline-flex;
+  position: absolute;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 152.08px;
+  height: 50px;
+  padding-left: 140px;
+}
+
+.header-list {
+  display: inline-flex;
+  padding-right: 140px;
+}
+
+.header-list__item {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  padding: 0 15px;
+  list-style: none;
+}
+
+.item__link {
+  color: #424B25;
+  text-transform: uppercase;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+}

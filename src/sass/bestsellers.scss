@@ -1,0 +1,47 @@
+.bestsellers {
+  height: 780px;
+  background-color: #F1F1F1;
+  display: flex;
+  justify-content: space-evenly;
+
+  background-image: url('../../public/imgs/flow.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.trends {
+  height: 780px;
+  background-color: #F1F1F1;
+  display: flex;
+  justify-content: space-evenly;
+
+  background-image: url('../../public/imgs/flow_2.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.bestsellers-info {
+  width: 312px;
+  height: 164px;
+  padding-top: 300px;
+}
+
+.bestsellers-info__title {
+  font-family: 'Abril Fatface', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 0.01em;
+  color: #5F6C37;
+}
+
+.bestsellers-info__button {
+  background: #5F6C37;
+  color: #ffffff;
+  border: none;
+  width: 274px;
+}
+
+.bestsellers__slider {
+  width: 775px;
+  height: 636px;
+}

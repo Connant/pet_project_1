@@ -1,0 +1,38 @@
+.second-intro {
+  height: 700px;
+  background-image:
+    url(../../public/imgs/intro_2.png),
+    url(../../public/imgs/blob_2.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.second-intro__wrapper {
+  width: 580px;
+  padding: 100px 0 0 670px;
+}
+
+.second-intro__title {
+  font-family: 'Abril Fatface';
+  font-weight: 400;
+  font-size: 50px;
+  color: #5F6C37;
+}
+
+.second-intro__info {
+  font-family: 'Quicksand';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 156.5%;
+  color: #363D1E;
+}
+
+.second-intro__button {
+  margin-top: 30px;
+  color: #5F6C37;
+  background-color: transparent;
+  border: 2px solid #5F6C37;
+}
